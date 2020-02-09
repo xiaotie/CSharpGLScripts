@@ -11,6 +11,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="GLAPI\WinGL.Wrappers.cs" />
+    <Compile Remove="WinGLCanvas\WinGLCanvas.ContextGenerationParameters.cs" />
+    <Compile Remove="WinGLCanvas\WinGLCanvas.cs" />
+    <Compile Remove="WinGLCanvas\WinGLCanvas.Designer.cs" />
+    <Compile Remove="WinGLCanvas\WinGLCanvas.Events.cs" />
+    <Compile Remove="WinGLCanvas\WinGLCanvas.IGLCanvas.cs" />
+    <Compile Remove="WinGLCanvas\WinGLCanvas.ISupportInitialize.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />

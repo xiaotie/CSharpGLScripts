@@ -3,7 +3,7 @@ using System.Drawing;
 
 using System.Windows.Forms;
 
-namespace EMGraphics
+namespace CSharpGL
 {
     /// <summary>
     /// Rotates a camera on a sphere, whose center is camera's Target.

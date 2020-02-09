@@ -6,7 +6,6 @@ namespace CSharpGL
     /// <summary>
     /// Rendering something using multiple GLSL shader programs and VBO(VAO).
     /// </summary>
-    [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
     public partial class ModernRenderUnit : IDisposable
     {
         private const string strRenderUnit = "RenderUnit";

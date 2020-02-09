@@ -7,7 +7,6 @@ namespace CSharpGL
     /// <summary>
     ///
     /// </summary>
-    [Editor(typeof(IListEditor<IGLSwitch>), typeof(UITypeEditor))]
     public class GLSwitchList : List<IGLSwitch>, IGLSwitch
     {
         /// <summary>

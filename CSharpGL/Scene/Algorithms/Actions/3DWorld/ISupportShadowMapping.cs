@@ -8,7 +8,6 @@ namespace CSharpGL
     /// <summary>
     /// Supports shadow mapping.
     /// </summary>
-    [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
     public interface ISupportShadowMapping
     {
         /// <summary>

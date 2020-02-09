@@ -9,7 +9,6 @@ namespace CSharpGL
     /// <summary>
     /// Wraps glDrawElementsBaseVertex(uint mode, int vertexCount, uint type, IntPtr offset, int baseVertex);
     /// </summary>
-    [Editor(typeof(IDrawCommandEditor), typeof(UITypeEditor))]
     public class DrawElementsBaseVertexCmd : IDrawCommand//, IHasIndexBuffer
     {
         private const string strDrawElementsBaseVertexCmd = "DrawElementsBaseVertexCmd";

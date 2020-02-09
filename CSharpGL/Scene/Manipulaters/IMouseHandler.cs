@@ -1,6 +1,4 @@
-﻿using System.Windows.Forms;
-
-namespace CSharpGL
+﻿namespace CSharpGL
 {
     /// <summary>
     /// Handle mouse events.

@@ -7,7 +7,6 @@ namespace CSharpGL
     /// Render something using 'glMultiDrawArrays'.
     /// </summary>
     [Browsable(true)]
-    [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
     public class MultiDrawArraysCmd : IDrawCommand
     {
         private const string strMultiDrawArraysCmd = "MultiDrawArraysCmd";

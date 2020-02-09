@@ -1,8 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
@@ -12,8 +11,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="BasicDataStructures\ITreeNode\ITreeNode`1\**" />
+    <Compile Remove="BasicDataStructures\PropertyGrid\**" />
     <EmbeddedResource Remove="BasicDataStructures\ITreeNode\ITreeNode`1\**" />
+    <EmbeddedResource Remove="BasicDataStructures\PropertyGrid\**" />
     <None Remove="BasicDataStructures\ITreeNode\ITreeNode`1\**" />
+    <None Remove="BasicDataStructures\PropertyGrid\**" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="BasicDataStructures\ITreeNode\ITreeNode.Children.cs" />
@@ -24,7 +26,14 @@
     <Compile Remove="Scene\Manipulaters\ModelManipulaters\TranslateSetup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicDataStructures\PropertyGrid\TypeConverters\ILoadFromString.cs" />
+    <Compile Include="BasicDataStructures\PropertyGrid\TypeConverters\StructTypeConverter.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
   </ItemGroup>
 
 </Project>

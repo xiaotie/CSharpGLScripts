@@ -10,7 +10,6 @@ namespace CSharpGL
     /// <summary>
     /// A smallest unit that can render somthing.
     /// </summary>
-    [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
     public partial class RenderMethod
     {
         private const string strRenderMethod = "RenderMethod";

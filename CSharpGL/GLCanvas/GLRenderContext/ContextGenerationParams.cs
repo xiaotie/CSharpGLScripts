@@ -10,7 +10,6 @@ namespace CSharpGL
     /// <summary>
     /// 
     /// </summary>
-    [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
     public class ContextGenerationParams
     {
         private byte colorBits = 32;

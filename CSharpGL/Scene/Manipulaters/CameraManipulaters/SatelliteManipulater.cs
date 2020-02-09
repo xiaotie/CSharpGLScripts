@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Drawing;
 
-using System.Windows.Forms;
-
 namespace CSharpGL
 {
     /// <summary>
@@ -77,8 +75,8 @@ namespace CSharpGL
             if ((e.Button & this.lastBindingMouseButtons) != GLMouseButtons.None)
             {
                 this.lastPosition = e.Location;
-                var control = sender as Control;
-                this.SetBounds(control.Width, control.Height);
+                //var control = sender as Control;
+                //this.SetBounds(control.Width, control.Height);
                 this.mouseDownFlag = true;
                 PrepareCamera();
             }

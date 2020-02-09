@@ -10,7 +10,6 @@ namespace CSharpGL
     /// <summary>
     /// Base type of directional light, point light and spot light.
     /// </summary>
-    [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
     public abstract class LightBase
     {
         //private vec3 color = new vec3(1, 1, 1);
@@ -39,8 +38,6 @@ namespace CSharpGL
         /// <summary>
         /// 
         /// </summary>
-        [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
-        public Attenuation Attenuation { get; set; }
 
         /// <summary>
         /// Base type of all lights.
@@ -50,6 +47,8 @@ namespace CSharpGL
         {
             this.Attenuation = attenuation;
         }
+
+        public Attenuation Attenuation { get; set; }
 
         /// <summary>
         /// 

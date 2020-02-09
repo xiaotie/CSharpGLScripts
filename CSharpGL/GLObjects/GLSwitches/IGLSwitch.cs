@@ -7,7 +7,6 @@ namespace CSharpGL
     /// <summary>
     ///
     /// </summary>
-    [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
     public interface IGLSwitch
     {
         /// <summary>

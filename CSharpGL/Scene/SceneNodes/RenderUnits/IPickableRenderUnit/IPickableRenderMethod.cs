@@ -10,7 +10,6 @@ namespace CSharpGL
     /// <summary>
     /// A smallest unit that can render somthing.
     /// </summary>
-    [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
     public class IPickableRenderMethod : RenderMethod
     {
         private const string strIPickableRenderMethod = "IPickableRenderMethod";

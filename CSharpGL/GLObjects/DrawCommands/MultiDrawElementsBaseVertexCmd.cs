@@ -9,7 +9,6 @@ namespace CSharpGL
     /// Render something using 'glMultiDrawElements'.
     /// </summary>
     [Browsable(true)]
-    [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
     public class MultiDrawElementsBaseVertexCmd : IDrawCommand
     {
         private const string strMultiDrawElementsBaseVertexCmd = "MultiDrawElementsBaseVertexCmd";

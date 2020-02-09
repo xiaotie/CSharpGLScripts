@@ -8,7 +8,6 @@ namespace CSharpGL
     /// <summary>
     /// Render something with Blinn-Phong shading model.
     /// </summary>
-    [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
     public interface IBlinnPhong
     {
         /// <summary>

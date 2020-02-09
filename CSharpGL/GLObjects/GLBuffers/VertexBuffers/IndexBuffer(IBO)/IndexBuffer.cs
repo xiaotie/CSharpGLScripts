@@ -7,7 +7,6 @@ namespace CSharpGL
     /// The indexes in which order the rendering command renders vertexes.
     /// </summary>
     [Browsable(true)]
-    [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
     public class IndexBuffer : GLBuffer
     {
         /// <summary>

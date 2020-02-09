@@ -4,7 +4,6 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using System.Windows.Forms;
 
 namespace CSharpGL
 {
@@ -23,7 +22,7 @@ namespace CSharpGL
         {
             //if (addtionalFilter == null) { addtionalFilter = x => !x.IsAbstract; }
             var result = new List<Type>();
-            Assembly[] assemblies = AssemblyHelper.GetAssemblies(Application.ExecutablePath);
+            Assembly[] assemblies = AssemblyHelper.GetAssemblies(AppDomain.CurrentDomain.BaseDirectory);
             foreach (Assembly asm in assemblies)
             {
                 try

@@ -9,7 +9,6 @@ namespace CSharpGL
     /// <summary>
     /// children in <see cref="GLControl"/>.
     /// </summary>
-    [Editor(typeof(IListEditor<GLControl>), typeof(UITypeEditor))]
     public class GLControlChildren : IList<GLControl>
     {
         internal readonly List<GLControl> children = new List<GLControl>();

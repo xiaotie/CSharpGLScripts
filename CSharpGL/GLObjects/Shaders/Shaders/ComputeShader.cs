@@ -8,7 +8,6 @@ namespace CSharpGL
     /// <summary>
     /// A GLSL compute shader.
     /// </summary>
-    [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
     public partial class ComputeShader : Shader
     {
 

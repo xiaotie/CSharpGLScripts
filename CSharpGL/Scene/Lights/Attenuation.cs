@@ -11,7 +11,6 @@ namespace CSharpGL
     /// Attenuation of light.
     /// <para>光源的衰减参数。</para>
     /// </summary>
-    [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
     public class Attenuation
     {
         /// <summary>

@@ -6,7 +6,6 @@ namespace CSharpGL
     /// <summary>
     /// Execute some drawing command(glDrawArrays etc..).
     /// </summary>
-    [Editor(typeof(IDrawCommandEditor), typeof(UITypeEditor))]
     public interface IDrawCommand
     {
         /// <summary>

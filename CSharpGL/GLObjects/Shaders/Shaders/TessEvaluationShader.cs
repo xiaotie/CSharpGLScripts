@@ -8,7 +8,6 @@ namespace CSharpGL
     /// <summary>
     /// A GLSL fragment shader.
     /// </summary>
-    [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
     public partial class TessEvaluationShader : Shader
     {
 

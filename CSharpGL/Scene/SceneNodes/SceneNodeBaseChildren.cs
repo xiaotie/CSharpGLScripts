@@ -9,7 +9,6 @@ namespace CSharpGL
     /// <summary>
     /// children in <see cref="SceneNodeBase"/>.
     /// </summary>
-    [Editor(typeof(IListEditor<SceneNodeBase>), typeof(UITypeEditor))]
     public class SceneNodeBaseChildren : IList<SceneNodeBase>
     {
         private List<SceneNodeBase> list = new List<SceneNodeBase>();

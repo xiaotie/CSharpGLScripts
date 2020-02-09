@@ -15,8 +15,6 @@ namespace CSharpGL
         ///
         /// </summary>
         [Category("ShaderProgram")]
-        [Editor(typeof(UniformVariableListEditor), typeof(UITypeEditor))]
-        [Description("maps to uniform variables in shader.")]
         public Dictionary<string, UniformVariable> UniformVariables { get { return this.uniformVariables; } }
 
         /// <summary>

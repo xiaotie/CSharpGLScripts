@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Drawing;
-using System.Windows.Forms;
 
 namespace CSharpGL
 {
@@ -92,8 +91,8 @@ namespace CSharpGL
             this.lastBindingMouseButtons = this.BindingMouseButtons;
             if ((e.Button & this.lastBindingMouseButtons) != GLMouseButtons.None)
             {
-                var control = sender as Control;
-                this.SetBounds(control.Width, control.Height);
+                //var control = sender as Control;
+                //this.SetBounds(control.Width, control.Height);
 
                 if (!cameraState.IsSameState(this.camera))
                 {

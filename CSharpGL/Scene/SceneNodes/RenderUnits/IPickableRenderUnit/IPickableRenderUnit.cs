@@ -5,7 +5,6 @@ namespace CSharpGL
     /// <summary>
     /// Rendering something using GLSL shader and VBO(VAO).
     /// </summary>
-    [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
     public class IPickableRenderUnit
     {
         private const string strRenderUnit = "RenderUnit";

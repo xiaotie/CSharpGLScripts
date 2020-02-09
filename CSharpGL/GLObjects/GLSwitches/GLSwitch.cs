@@ -6,7 +6,6 @@ namespace CSharpGL
     /// <summary>
     ///
     /// </summary>
-    [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
     public abstract class GLSwitch : IGLSwitch
     {
         private bool inUse = false;

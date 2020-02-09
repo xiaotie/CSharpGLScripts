@@ -8,7 +8,6 @@ namespace CSharpGL
     /// <summary>
     /// Supports shadow volume.
     /// </summary>
-    [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
     public interface ISupportShadowVolume
     {
         /// <summary>

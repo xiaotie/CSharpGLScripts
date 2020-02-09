@@ -8,7 +8,6 @@ namespace CSharpGL
     /// <summary>
     /// Wraps void glDrawArraysInstanced(uint mode​, int first​, int count​, int primcount​);
     /// </summary>
-    [Editor(typeof(PropertyGridEditor), typeof(UITypeEditor))]
     public class DrawArraysInstancedCmd : IDrawCommand
     {
         private const string strDrawArraysInstancedCmd = "DrawArraysInstancedCmd";
